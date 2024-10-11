@@ -59,7 +59,43 @@ a {
 main {
     width: 1000px;
     margin: auto;
+#container {
+    max-width: 1000px;
+    margin: 50px auto;
 }
 
-
 /* SECTION HERO*/
+
+/* SECTION HERO*//*FIXA, FLYTTA KNAPP NER, MER BREDD PÅ SIDORNA, ÄNDRA FÄRG PÅ P*/
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 50px;
+    column-gap: 20px;
+
+    padding-bottom: 50px;
+    height: 250px;
+    box-sizing: content-box;
+}
+
+#hero_left {
+    text-align: left;
+    box-sizing: border-box;
+    margin-top: -20px;
+    height: auto;
+}
+
+#hero_left h2 {
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+#hero_left p {
+    font-size: 20px;
+}
+
+#hero_right img {
+    width: 100%;
+}
+
