@@ -99,3 +99,17 @@ main {
     width: 100%;
 }
 
+/*PARTNER_LOGOS*/
+#partner_logos {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+    border: 1px solid black;
+    border-left: 0;
+    border-right: 0;
+}
+
+#partner_logos img {
+    padding: 10px;
+    height: 20px;
+}
