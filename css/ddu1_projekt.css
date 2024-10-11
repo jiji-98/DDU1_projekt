@@ -78,7 +78,7 @@ main {
 
 /* SECTION HERO*/
 
-/* SECTION HERO*//*FIXA, FLYTTA KNAPP NER, MER BREDD PÅ SIDORNA, ÄNDRA FÄRG PÅ P*/
+/* SECTION HERO*/
 /*FIXA, FLYTTA KNAPP NER, MER BREDD PÅ SIDORNA, ÄNDRA FÄRG PÅ P*/
 
 #hero {
@@ -99,8 +99,8 @@ main {
     height: auto;
 }
 
-#hero_left h2 {
-    font-size: 50px;
+#hero_left h1 {
+    font-size: 45px;
     margin-bottom: 0;
 }
 
