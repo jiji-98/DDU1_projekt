@@ -320,4 +320,15 @@ a {
     border-right: none;
 }
 
+/*TRY BARKY FREE*/
+
+
+.try_barky{
+    padding: 30px 0;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.try_barky p{
+    margin-bottom: 20px;
 }
