@@ -273,4 +273,51 @@ a {
 #last_team {
     border-right: none;
 }
+
+/*CUSTOMER RATING*/
+
+#customer_rating {
+    display: flex;
+    flex-direction: column;
+}
+
+#rating_info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
+}
+
+#rating_info img {
+    width: 100%;
+}
+
+#rating_number {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rating {
+    padding: 10px 50px;
+    flex-basis: 0;
+    flex-grow: 1;
+    border-right: 1px solid black;
+    height: 140px;
+    box-sizing: border-box;
+}
+
+.rating h2 {
+    font-size: 53px;
+    color: #7f7f7f;
+    opacity: .5;
+    margin: 20px;
+}
+
+.rating p {
+    text-align: center;
+}
+
+#last_rating h2 {
+    border-right: none;
+}
+
 }
