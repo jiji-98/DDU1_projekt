@@ -66,19 +66,14 @@ a {
     border-radius: 5px;
 }
 
+
 main {
     width: 1000px;
     margin: auto;
 }
 
-#container {
-    max-width: 1000px;
-    margin: 50px auto;
-}
-
 /* SECTION HERO*/
 
-/* SECTION HERO*/
 /*FIXA, FLYTTA KNAPP NER, MER BREDD PÅ SIDORNA, ÄNDRA FÄRG PÅ P*/
 
 #hero {
@@ -172,13 +167,13 @@ main {
 }
 
 #fetch_results {
-    padding-bottom: 200px;
+    padding-bottom: 100px;
 }
 
 #online_kennel {
-    padding-bottom: 200px;
+    padding-bottom: 100px;
 }
 
 #dogeting_wiki {
-    padding-bottom: 200px;
+    padding-bottom: 100px;
 }
