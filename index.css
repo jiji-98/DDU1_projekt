@@ -34,7 +34,7 @@ main {
     margin: auto;
 }
 
-.section {
+.section_class {
     padding: 75px 0;
     margin: 0 auto;
 }
@@ -43,10 +43,10 @@ a {
     text-decoration: none;
     color: black;
     padding: 8px;
+    border-radius: 5px;
 }
 
 /*HEADER*/
-
 header {
     position: fixed;
     top: 0;
@@ -55,18 +55,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 1;
     padding: 10px 0;
     background-color: white;
     border-bottom: 1px solid rgba(153, 153, 153, 0.5);
     font-size: 16px;
 }
 
-.nav_hover:hover {
-    /*ändra namn till nav_a:hover*/
+.nav_a:hover {
     background-color: rgba(244, 244, 244, 0.5);
-    padding: 8px;
-    border-radius: 5px;
 }
 
 #nav_left {
@@ -108,7 +104,6 @@ header a {
 
 .button_free:hover {
     background-color: rgba(0, 0, 0, 0.8);
-    padding: 8px;
 }
 
 #hamburger {
@@ -116,7 +111,6 @@ header a {
 }
 
 /* SECTION HERO*/
-
 #hero {
     display: flex;
     gap: 40px;
@@ -160,7 +154,6 @@ header a {
 
 .box_size h2 {
     font-weight: 650;
-    /*font-size: 40px;*/
     margin-bottom: 0px;
 }
 
@@ -212,8 +205,7 @@ header a {
 }
 
 .bottom_quote h2 {
-    color: #353535;
-    opacity: .5;
+    color: #999;
     font-size: 38px;
     font-weight: 530;
     line-height: 1;
@@ -277,8 +269,6 @@ header a {
 }
 
 #built_for_teams h2 {
-    color: black;
-    opacity: unset;
     margin-bottom: 0;
 }
 
@@ -306,6 +296,7 @@ header a {
 
 .team a:hover {
     color: #087fe7;
+    text-decoration:#666666 underline;
 }
 
 #last_team {
@@ -322,14 +313,12 @@ header a {
 #rating_info {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
 }
 
 #rating_info img {
     width: 100%;
     flex-basis: 0;
     flex-grow: 1;
-    box-sizing: border-box;
     padding: 30px 10px;
 }
 
@@ -372,8 +361,7 @@ header a {
 
 .rating h2 {
     font-size: 53px;
-    color: #050505;
-    opacity: .5;
+    color: #999;
     margin: 0;
 }
 
@@ -386,7 +374,6 @@ header a {
 }
 
 /*TRY BARKY FREE*/
-
 .try_barky {
     padding: 30px 0;
     text-align: center;
@@ -394,7 +381,7 @@ header a {
 }
 
 .try_barky h2 {
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 }
 
 .try_barky p {
@@ -402,7 +389,6 @@ header a {
 }
 
 /* FOOTER*/
-
 footer {
     width: 1200px;
     padding: 80px 110px;
@@ -493,7 +479,6 @@ footer {
     }
 
     #hero {
-        display: flex;
         flex-direction: column-reverse;
         text-align: center;
         gap: 0;
@@ -535,7 +520,6 @@ footer {
         width: 88%;
     }
 
-
     #features_list {
         width: 90%;
     }
@@ -550,12 +534,16 @@ footer {
         padding: 0px 5px 20px 5px;
     }
 
-    #customer_rating h2{
+    #customer_rating h2 {
         margin-bottom: 15px;
     }
 
     #rating_info {
         flex-direction: column;
+    }
+
+    #rating_info img {
+        box-sizing: border-box;
     }
 
     #rating_number {
@@ -568,13 +556,13 @@ footer {
     }
 
     footer {
-        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         gap: 0;
         width: 100%;
         padding: 80px 20px;
         box-sizing: border-box;
+        min-width: 0;
     }
 
     footer.section {
@@ -584,6 +572,10 @@ footer {
 
     #logos_and_text {
         width: 100%;
+    }
+
+    #logos_and_text p {
+        font-size: 16px;
     }
 
     #social_media_logos {
@@ -596,7 +588,6 @@ footer {
     }
 
     .footer_boxes {
-        display: flex;
         flex-direction: column;
         width: 50%;
         line-height: 1.2;
