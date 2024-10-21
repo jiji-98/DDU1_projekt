@@ -1,2 +1,0 @@
-# DDU1_projekt
- 
